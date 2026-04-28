@@ -1,5 +1,3 @@
-# A1004 by ETRI 김윤형 (yhkim1127@etri.re.kr)
-
 # https://github.com/yhkim-ETRI/a1004
 
 # 실습 내용
@@ -46,3 +44,6 @@ See [Whisper.md](./Whisper.md)
 * Inference
 * Scoring
 
+### 문의
+ETRI 김윤형
+- email: yhkim1127@etri.re.kr
