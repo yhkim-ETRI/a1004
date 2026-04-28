@@ -44,6 +44,7 @@ See [Whisper.md](./Whisper.md)
 * Inference
 * Scoring
 
-### 문의
+
+## 작성자
 ETRI 김윤형
 - email: yhkim1127@etri.re.kr
