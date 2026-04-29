@@ -5,19 +5,12 @@ Whisper를 이용하여 음성인식을 수행합니다. 본 실습에서는 음
 대하여 인식을 수행하고 인식률을 측정하는 방법을 설명합니다.
 
 
-## whisper 사용을 위한 venv 생성
-
-```
-        deactivate
-        cd ~/
-        python3 -m venv whisper_venv
-        source whisper_venv/bin/activate
-```
-
 ## OpenAI Whisper 설치
 
 Whisper는 아래와 같이 `openai-whisper` 패키지와 관련 의존성 패키지를 설치하면 됩니다.
 
+        cd ~/a1004
+        . path.sh
         pip install openai-whisper --no-deps
         pip install tiktoken more-itertools
         sudo apt install ffmpeg
