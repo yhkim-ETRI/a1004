@@ -10,6 +10,7 @@
     # Daemons 관련 메세지 표출 시 Tab 키로 OK 이동 후 엔터
     sudo apt install python3-venv
     sudo apt install python3-dev
+    sudo apt install sox
     # 설치 오류 발생 시
     sudo add-apt-repository --remove ppa:deadsnakes/ppa
     ```
