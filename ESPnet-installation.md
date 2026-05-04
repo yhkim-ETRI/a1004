@@ -71,4 +71,5 @@ See [ESPnet Installation] page.
         $ deactivate
         $ source path.sh
         (venv)$ ls
+        $ pip install jupyter
 
