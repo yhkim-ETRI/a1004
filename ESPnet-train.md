@@ -25,7 +25,7 @@
 
 * Change path in `~a1004/data/ks/wav.scp` and corrent it 
     ```
-    sed -i 's,/path/to/db/...,/some/correct/path,' ~/a1004/data/ks/wav.scp
+    sed -i 's,/path/to/db/,/some/correct/path,' ~/a1004/data/ks/wav.scp
     ```  
 
 * Choose **one** of following 3 options:
