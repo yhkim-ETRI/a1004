@@ -32,6 +32,8 @@ See [ESPnet Installation] page.
 
 * install torch, torchaudio
     ```
+    # (optional) sudo apt install vim
+    cd ..
     pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
     ```
 
