@@ -68,6 +68,7 @@ See [ESPnet Installation] page.
     
 * Edit `path.sh`, then
 
+        $ deactivate
         $ source path.sh
         (venv)$ ls
 
