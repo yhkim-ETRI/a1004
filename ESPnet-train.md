@@ -18,7 +18,7 @@
 * Choose **one** of following 3 options:
     ```
     cd ~/a1004/data/ks
-    cat uttid.01 uttid.03 uttid.05 > uttid.train
+    cat uttid.01 > uttid.train
     ```
 * or
     ```
@@ -28,7 +28,7 @@
 * or
     ```
     cd ~/a1004/data/ks
-    cat uttid.01 > uttid.train
+    cat uttid.01 uttid.03 uttid.05 > uttid.train
     ```
     
 [KsponSpeech]: https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=realm&dataSetSn=123
