@@ -4,7 +4,18 @@
 
 ### Select train data
 * We will use data from AIHub [[KsponSpeech]]. List of files are mode for convenience.
+* 회원가입 및 로그인 -> 파일 목록(API 다운로드) 이동
 * Download KsponSpeech_eval.zip and KsponSpeech_01.zip (optionally, download KsponSpeech_03.zip)
+* 다운로드 완료 후
+    ```
+    cd ~/Downloads
+    tar -xvf download.tar  # 압축 해제 후 여러개의 파일 생성됨
+    mv 10.한국어음성 NIA2019_KSPONSPEECH
+    cd NIA2019_KSPONSPEECH
+    find ./ -name "KsponSpeech_01.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "파일명.zip"
+    find ./ -name "KsponSpeech_eval.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "파일명.zip"
+    ```
+* 데이터셋 정보가 담긴 파일 압축 해제
     ```
     cd ~/a1004/data/
     tar xvzf ks.tgz
