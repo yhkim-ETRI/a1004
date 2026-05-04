@@ -1,3 +1,5 @@
+## "window키 + 좌우 방향키" 이용하여 README, terminal 화면 세팅
+
 ## python venv 환경 사용 (conda, miniforge 사용 X)
 
 * Python version check (python 3.10 이상 권장)
