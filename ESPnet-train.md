@@ -4,6 +4,7 @@
 
 ### Select train data
 * We will use data from AIHub [[KsponSpeech]]. List of files are mode for convenience.
+* Download KsponSpeech_eval.zip and KsponSpeech_01.zip (optionally, download KsponSpeech_03.zip)
     ```
     cd ~/a1004/data/
     tar xvzf ks.tgz
