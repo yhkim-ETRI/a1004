@@ -8,8 +8,8 @@
 * Install python-venv, python-dev
     ```
     # Daemons 관련 메세지 표출 시 Tab 키로 OK 이동 후 엔터
-    sudo apt install python3.10-venv
-    sudo apt install python3.10-dev
+    sudo apt install python3-venv
+    sudo apt install python3-dev
     # 설치 오류 발생 시
     sudo add-apt-repository --remove ppa:deadsnakes/ppa
     ```
