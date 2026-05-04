@@ -3,6 +3,7 @@
 * Python version check (python 3.10 이상 권장)
     ```          
     python3 --version
+    # (base)가 활성화 되어있다면 conda deactivate 입력하여 콘다 환경 해제
     ```
     
 * Install python-venv, python-dev
@@ -11,6 +12,7 @@
     sudo apt install python3-venv
     sudo apt install python3-dev
     sudo apt install sox
+    
     # 설치 오류 발생 시
     sudo add-apt-repository --remove ppa:deadsnakes/ppa
     ```
@@ -28,7 +30,6 @@ See [ESPnet Installation] page.
     ```
     cd espnet/tools
     ./setup_venv.sh $(command -v python3)
-    # (base)가 활성화 되어있다면 conda deactivate 입력하여 콘다 환경 해제
     source activate_python.sh
     ```
 
