@@ -14,6 +14,8 @@
     cd NIA2019_KSPONSPEECH
     find ./ -name "KsponSpeech_01.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "01.zip"
     find ./ -name "KsponSpeech_eval.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "eval.zip"
+    unzip 01.zip
+    unzip eval.zip
     ```
 * 데이터셋 정보가 담긴 파일 압축 해제
     ```
