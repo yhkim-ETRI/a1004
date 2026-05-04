@@ -28,6 +28,7 @@ See [ESPnet Installation] page.
     ```
     cd espnet/tools
     ./setup_venv.sh $(command -v python3)
+    # (base)가 활성화 되어있다면 conda deactivate 입력하여 콘다 환경 해제
     source activate_python.sh
     ```
 
