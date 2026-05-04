@@ -12,8 +12,8 @@
     tar -xvf download.tar  # 압축 해제 후 여러개의 파일 생성됨
     mv 10.한국어음성 NIA2019_KSPONSPEECH
     cd NIA2019_KSPONSPEECH
-    find ./ -name "KsponSpeech_01.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "파일명.zip"
-    find ./ -name "KsponSpeech_eval.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "파일명.zip"
+    find ./ -name "KsponSpeech_01.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "01.zip"
+    find ./ -name "KsponSpeech_eval.zip.part*" -print0 | sort -zt'.' -k2V | xargs -0 cat > "eval.zip"
     ```
 * 데이터셋 정보가 담긴 파일 압축 해제
     ```
