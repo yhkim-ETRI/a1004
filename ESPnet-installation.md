@@ -25,6 +25,7 @@ See [ESPnet Installation] page.
 
 * setup python venv
     ```
+    cd espnet/tools
     ./setup_venv.sh $(command -v python3)
     source activate_python.sh
     ```
